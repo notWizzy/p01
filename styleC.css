@@ -48,3 +48,8 @@ div{
     background: linear-gradient(to bottom, green, blue 50%, yellow);
     text-shadow: white 5px 5px 5px;
 }
+
+.letterF{
+    background: linear-gradient(to bottom, yellow, blue 50%, green);
+    text-shadow: red 5px 5px 5px;
+}
