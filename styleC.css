@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    font-family: Tahoma, sans-serif;
+}
+
+div{
+    padding: 10px;
+    margin: 40px;
+    color: aliceblue;
+}
+
+.letterA, .letterB, .letterC, .letterD, .letterE, .letterF{
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    border-left: 10px dotted #D0D0FF;
+    box-shadow: black 5px 5px 5px;
+}
+
+.letterA:hover, .letterB:hover, .letterC:hover, .letterD:hover, .letterE:hover, .letterF:hover{
+    background: burlywood;
+    border-left: 10px dotted red;
+}
+
+.letterA{
+    background: linear-gradient(to bottom, red, yellow 50%, green);
+    text-shadow: blue 5px 5px 5px;
+}
+
+.letterB{
+    background: linear-gradient(to bottom, blue, yellow 50%, green);
+    text-shadow: red 5px 5px 5px;
+}
+
+.letterC{
+    background: linear-gradient(to bottom, green, yellow 50%, red);
+    text-shadow: blue 5px 5px 5px;
+}
+
+.letterD{
+    background: linear-gradient(to bottom, yellow, green 50%, blue);
+    text-shadow: red 5px 5px 5px;
+}
+
+.letterE{
+    background: linear-gradient(to bottom, green, blue 50%, yellow);
+    text-shadow: white 5px 5px 5px;
+}
