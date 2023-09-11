@@ -6,40 +6,33 @@ body{
     margin:0;
 }
 
-
-
 .container{
-   /* width:100%;
-    height:auto; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    row-gap: 10px;
-    max-height: 100%;
-
-
-
 }
 
 .letterA{
-     width:100px;
+    width:100px;
     height:100px;
     text-align: center;
     background: #dfe1e7;
-    margin: auto;
     font-size: 40px;
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     border-top: 1px solid #687291;
+    margin-bottom: 2vh;
 }
+
 .letterB{
     width:100px;
     height:100px;
     text-align: center;
     background: #eeeff2;
     font-size: 40px;
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     border-top: 1px solid #687291;
+    margin-bottom: 2vh;
 }
 
 .letterC{
@@ -48,8 +41,9 @@ body{
     text-align: center;
     background: #dfe1e7;
     font-size: 40px;
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     border-top: 1px solid #687291;
+    margin-bottom: 2vh;
 }
 
 .letterD{
@@ -58,8 +52,9 @@ body{
     text-align: center;
     background: #eeeff2;
     font-size: 40px;
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     border-top: 1px solid #687291;
+    margin-bottom: 2vh;
 }
 
 .letterE{
@@ -68,9 +63,11 @@ body{
     text-align: center;
     background: #dfe1e7;
     font-size: 40px;
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     border-top: 1px solid #687291;
+    margin-bottom: 2vh;
 }
+
 .letterF{
     width:100px;
     height:100px;
@@ -79,7 +76,8 @@ body{
     align-items: center;
     background: #687291;
     font-size: 40px;
-    font-family: Tahoma;
-    border: 4px solid;
+    font-family: Tahoma, sans-serif;
+    border: 4px solid ;
     border-color: black;
+    margin-bottom: 2vh;
 }
