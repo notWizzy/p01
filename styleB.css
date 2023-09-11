@@ -1,0 +1,42 @@
+body {
+    font-family: Tahoma, sans-serif;
+    display: inline-block;
+    padding-right: 10px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.letterA, .letterB, .letterC, .letterD, .letterE {
+    width: 100px;
+    height: 150px;
+    border-left: 10px dotted #D0D0FF;
+    background-color: #eeeff2;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+.letterF {
+    width: 100px;
+    height: 150px;
+    border-left: 10px dotted #D0D0FF;
+    background-color: #eeeff2;
+    position: fixed;
+    padding: 10px;
+    right: 10px;
+    bottom: 10px;
+    font-size: 40px;
+}
+
+.letterA:hover, .letterB:hover, .letterC:hover, .letterD:hover, .letterE:hover, .letterF:hover {
+    cursor: pointer;
+    color: goldenrod;
+    background-color: yellow;
+}
